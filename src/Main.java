@@ -91,7 +91,8 @@ public class Main {
                     break;
                 }
                 continue;
-            } System.out.println(" Текущий заряд " + charge + " % ");
+            }
+            System.out.println(" Текущий заряд " + charge + " % ");
         }
     }
 }
