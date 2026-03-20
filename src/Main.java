@@ -49,6 +49,7 @@ public class Main {
             budget = budget - 100;
             if (parkingDays % 5 == 0) {
                 parkingDays++;
+                continue;
             }
             if (budget == 0) {
                 System.out.println("Вам хватит на " + parkingDays + " дней парковки");
